@@ -1,15 +1,24 @@
 import React from 'react';
-import { Flex, Heading, Text } from '@chakra-ui/react';
+import {
+  Flex,
+  Heading,
+  Text,
+  useColorModeValue
+} from '@chakra-ui/react';
 
 const Footer = () => {
+  const bg = useColorModeValue("#d3d3d3", "#292968");
+
   return (
     <Flex
       w="100%"
       justify="center"
-      bgColor="#4C2FA1"
+      bgColor={bg}
       h="120px"
       flexShrink={0}
-      borderTopRadius="15px"
+      border="1px solid"
+      borderColor="grey"
+      borderTopRadius="10px"
     >
       <Flex
         w="70%"
@@ -17,10 +26,10 @@ const Footer = () => {
         align="center"
         py="30px"
       >
-        <Heading color="#fff" >
+        <Heading colorScheme="brand.100">
           Finance app
         </Heading>
-        <Text color="d7d7d7">
+        <Text colorScheme="brand.100">
           Copyright ©
         </Text>
       </Flex>

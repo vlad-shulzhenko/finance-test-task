@@ -1,4 +1,4 @@
-const fonts: Object = {
+const fonts: object = {
   body: 'Roboto, sans-serif',
   heading: 'Roboto, sans-serif',
 };

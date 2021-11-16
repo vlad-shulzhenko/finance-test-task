@@ -1,4 +1,4 @@
-const global: Object = {
+const global: object = {
   body: {
     margin: 0,
     padding: 0,
