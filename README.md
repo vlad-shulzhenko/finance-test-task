@@ -24,9 +24,9 @@ You can add back ticker to watchlist by clicking button `+`.
 * Run `npm install` in your terminal
 * Go to folder `server`
 * Run `npm install` in your terminal
-* Run `npm start` in your terminal
+* Run `npm start` in your terminal to run `server`
 * Go back to `client`
-* Run `npm start` in your terminal
+* Run `npm start` in your terminal to run `app`
 
 ## Troubleshooting
 
